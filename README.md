@@ -459,12 +459,12 @@ Check [Edge Impulse Linux SDK docs](https://docs.edgeimpulse.com/docs/deployment
 
 ## License & Credits
 
-**License**: ISC (see [LICENSE](LICENSE) or `package.json`)  
-**Author**: Shebin Jose Jacob (original AutoBill project)  
+**License**: MIT (see [LICENSE](LICENSE) or `package.json`)  
+**Author**: Sossey Salmane 
 **Adapted by**: Smart-Grocery-Box contributors
 
 **Acknowledgments**:
-- Original inspiration: [Automatic Billing Cart](https://www.hackster.io/ShebinJoseJacob/automatic-billing-cart-8b6fe3) by Shebin Jose Jacob on Hackster.io
+
 - [Edge Impulse](https://www.edgeimpulse.com/) for on-device ML tooling
 - Raspberry Pi Foundation for the incredible platform
 
