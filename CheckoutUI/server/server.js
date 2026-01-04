@@ -97,5 +97,11 @@ app.get('/checkout', (req, res) => {
   res.json(orders);
 });
 
+// Clear cart (DELETE all products)
+app.delete('/cart', (req, res) => {
+  products = [];
+  res.json({ success: true, message: 'Cart cleared', cart: [] });
+});
+
 // Listen on all interfaces so your phone can access it
 app.listen(port, '0.0.0.0', () => console.log(`Server listening on port ${port}!`));

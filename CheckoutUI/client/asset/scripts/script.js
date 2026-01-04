@@ -1,6 +1,15 @@
 var InitialCount = -1;
 
-
+const clearCart = async() => {
+    await axios.delete('/cart');
+    InitialCount = -1;
+    document.getElementById('home').innerHTML = '';
+    $("#1").css("display", "grid");
+    $("#home").css("display", "none");
+    $("#2").css("display", "none");
+    $("#clearCart").css("display", "none");
+    console.log('Cart cleared');
+}
 
 const deleteProducts = async() => {
     url = '/product';

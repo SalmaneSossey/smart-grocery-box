@@ -94,9 +94,9 @@ def main(argv):
             model_path = candidate
 
     api_url = os.environ.get("SMART_GROCERY_BOX_API_URL", "http://localhost:3000/product")
-    threshold = float(os.environ.get("SMART_GROCERY_BOX_THRESHOLD", "0.90"))
-    streak_frames = int(os.environ.get("SMART_GROCERY_BOX_STREAK_FRAMES", "8"))
-    cooldown_s = float(os.environ.get("SMART_GROCERY_BOX_COOLDOWN_SECONDS", "2.0"))
+    threshold = float(os.environ.get("SMART_GROCERY_BOX_THRESHOLD", "0.95"))
+    streak_frames = int(os.environ.get("SMART_GROCERY_BOX_STREAK_FRAMES", "15"))
+    cooldown_s = float(os.environ.get("SMART_GROCERY_BOX_COOLDOWN_SECONDS", "5.0"))
     unit = os.environ.get("SMART_GROCERY_BOX_UNIT", "pcs")
 
     # Select camera
